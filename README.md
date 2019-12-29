@@ -12,7 +12,7 @@ This ROS package contains the following folders:
 This ROS package contains the following files:
 - CMakeLists.txt: build script for the ROS package
 - package.xml: contains meta-data and dependencies of the ROS package
-- LICENSE: this software is licensed under Apache License 2.0
+- LICENSE: all contributing software in this package is licensed under Apache License 2.0
 
 
 ## Documentation
