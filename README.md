@@ -24,7 +24,8 @@ This documents contains the instructions to install the software on an Ubuntu 16
 - Jackal packages for simulation in Gazebo
 - MATLAB R2019a
 
-Note that this manual is partly finished yet! Some installation details still need to be verified.
+**Note that this manual is partly finished yet! Some installation details still need to be verified.**
+
 
 ### system_overview
 This document provides an overview of all tunable parameters in the system, sorted by system part:
@@ -33,6 +34,8 @@ This document provides an overview of all tunable parameters in the system, sort
 - Data processing
 - Kalman filter
 - Active Inference algorithm
+
+This document can especially be useful when trying to improve the simulation results.
 
 
 ## Acknowledgements
