@@ -36,4 +36,4 @@ This document provides an overview of all tunable parameters in the system, sort
 
 
 ## Acknowledgements
-The jackal_gazebo package is used to start the Gazebo simulator and spawn the Jackal robot and can be found [here.](https://github.com/jackal/jackal_simulator/tree/kinetic-devel/jackal_gazebo)
+The jackal_gazebo package is used to start the Gazebo simulator and spawn the Jackal robot. The repository can be found [here.](https://github.com/jackal/jackal_simulator/tree/kinetic-devel/jackal_gazebo)
