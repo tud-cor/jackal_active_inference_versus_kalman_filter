@@ -1,0 +1,4 @@
+# Publish all joint states of the Jackal robot
+jackal_joint_publisher:
+    type: joint_state_controller/JointStateController
+    publish_rate: 1000

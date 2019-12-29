@@ -1,0 +1,20 @@
+<launch>
+  <!-- Gazebo arguments -->
+  <arg name="world_name" default="$(find jackal_active_inference_versus_kalman_filter)/worlds/empty.world" />
+
+  <!-- Launch Gazebo with the specified world -->
+  <include file="$(find jackal_gazebo)/launch/jackal_world.launch">
+    <arg name="world_name" value="$(arg world_name)" />
+  </include>
+
+   <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find jackal_active_inference_versus_kalman_filter)/config/jackal_robot_control.yaml" command="load"/>
+  
+  <!-- Uncomment to launch simulation control, data processing and filtering nodes -->
+  <!--
+  <node name="simulation_control" pkg="jackal_active_inference_versus_kalman_filter" type="auto_motion.py" />
+  <node name="data_processing" pkg="jackal_active_inference_versus_kalman_filter" type="read_gazebo_data.py" />
+  <node name="kalman_filter" pkg="jackal_active_inference_versus_kalman_filter" type="kalman.py" />
+  <node name="active_Inference" pkg="jackal_active_inference_versus_kalman_filter" type="active_inference.py" />
+  -->
+</launch>
