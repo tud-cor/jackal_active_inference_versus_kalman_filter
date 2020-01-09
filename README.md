@@ -17,7 +17,7 @@ This ROS package contains the following files:
 
 ## Documentation
 ### report
-This documents is the resulting report of the project during which this package is created. It explains design, implementation and validation steps of the software architecture and the implemented algorithms. It furthermore provides theoretical conclusions regarding the Active Inference algorithm as well as the Kalman filter.
+This document is the result of the project during which this package was created. It explains the design, implementation and validation steps of the software architecture and the implemented algorithms. It furthermore provides theoretical conclusions regarding the Active Inference algorithm as well as the Kalman filter.
 
 This document is useful for people willing to understand the software architecture as well as the theory behind the implemented algorithms.
 
