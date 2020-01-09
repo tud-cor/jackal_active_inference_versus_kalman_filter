@@ -19,7 +19,7 @@ This ROS package contains the following files:
 ### report
 This document is the result of the project during which this package was created. It explains the design, implementation and validation steps of the software architecture and the implemented algorithms. It furthermore provides theoretical conclusions regarding the Active Inference algorithm as well as the Kalman filter.
 
-This document is useful for people willing to understand the software architecture as well as the theory behind the implemented algorithms.
+This document is useful for people looking to understand the software architecture as well as the theory behind the implemented algorithms.
 
 ### installation_manual
 This documents contains the instructions to install the software on an Ubuntu 16.04 operating system. The installation manual of the following software parts is included:
